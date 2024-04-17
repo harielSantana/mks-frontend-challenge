@@ -1,0 +1,51 @@
+/* Reset CSS */
+
+/* Box sizing border-box por padrão */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  /* Remover margens e paddings padrão */
+  body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Lista sem estilos */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remover espaçamento padrão da lista */
+  ul, ol, li {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Remover decoração de link padrão */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Remover estilos de lista */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remover margem extra no Safari */
+  body {
+    margin: 0;
+  }
+  
+  /* Remover estilo padrão da tag input */
+  input {
+    border: none;
+    outline: none;
+  }
+  
+  /* Adicione qualquer outro estilo de reset necessário abaixo */
+  
